@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body class="min-h-screen flex items-center justify-center">
+    <div class="bg-black rounded-3xl shadow-2xl p-6 w-[340px]">
+      <input
+        type="text"
+        value="0"
+        id="display"
+        disabled
+        class="w-full text-right text-5xl text-white font-light mb-6 h-20 bg-transparent select-none outline-none px-3 overflow-x-auto scrollbar-hide"
+      />
+
+      <!-- Display -->
+      <div class="grid grid-cols-4 gap-3">
+        <button
+          data-value="ac"
+          class="bg-[#a5a5a5] text-black text-2xl font-medium rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          AC
+        </button>
+        <button
+          data-value="del"
+          class="bg-[#a5a5a5] text-black text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button
+          data-value="%"
+          class="bg-[#a5a5a5] text-black text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          %
+        </button>
+        <button
+          data-value="*"
+          class="bg-[#ff9f0a] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <button
+          data-value="9"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          9
+        </button>
+        <button
+          data-value="8"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          8
+        </button>
+        <button
+          data-value="7"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          7
+        </button>
+        <button
+          data-value="/"
+          class="bg-[#ff9f0a] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          <i class="fa-solid fa-divide"></i>
+        </button>
+
+        <button
+          data-value="6"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          6
+        </button>
+        <button
+          data-value="5"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          5
+        </button>
+        <button
+          data-value="4"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          4
+        </button>
+        <button
+          data-value="+"
+          class="bg-[#ff9f0a] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          <i class="fa-solid fa-plus"></i>
+        </button>
+
+        <button
+          data-value="3"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          3
+        </button>
+        <button
+          data-value="2"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          2
+        </button>
+        <button
+          data-value="1"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          1
+        </button>
+        <button
+          data-value="-"
+          class="bg-[#ff9f0a] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          <i class="fa-solid fa-minus"></i>
+        </button>
+
+        <button
+          data-value="0"
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-[140px] col-span-2 active:scale-95 transition-all text-start pl-[26px]"
+        >
+          0
+        </button>
+        <button
+          data-value="."
+          class="bg-[#333333] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          .
+        </button>
+        <button
+          data-value="="
+          class="bg-[#ff9f0a] text-white text-2xl rounded-full h-16 w-16 active:scale-95 transition-all"
+        >
+          <i class="fa-solid fa-equals"></i>
+        </button>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
