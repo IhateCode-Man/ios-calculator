@@ -9,16 +9,17 @@ IOS design
 ## 📦 Instalasi & Setup
 
 1. Clone repo ini:
-
 ```bash
 git clone https://github.com/username/kalkulator.git
 cd kalkulator
+```
 
 2. Install Tailwind dependencies
-
 ```bash
 npm install
+```
 
 3. Jalankan Tailwind CLI (watch mode)
 ```bash
 npx tailwindcss -i ./input.css -o ./output.css --watch
+```
