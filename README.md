@@ -10,7 +10,7 @@ IOS design
 
 1. Clone repo ini:
 ```bash
-git clone https://github.com/ihateCode-Man/ios-calculator.git
+git clone https://github.com/IhateCode-Man/ios-calculator.git
 cd kalkulator
 ```
 
