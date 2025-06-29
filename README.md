@@ -1,9 +1,8 @@
 # 🔢 Kalkulator Web
 
-Proyek kalkulator sederhana berbasis **HTML**, **Tailwind CSS**, dan **JavaScript**.  
-Cocok buat belajar dasar-dasar web development & styling modern.
+IOS design
 
-![Screenshot]<img width="338" alt="{CFE034BE-A947-4383-837D-F8393267CF33}" src="https://github.com/user-attachments/assets/67039936-7bd3-4620-bd3f-0b7e94597e2b" />
+<img width="338" alt="{CFE034BE-A947-4383-837D-F8393267CF33}" src="https://github.com/user-attachments/assets/67039936-7bd3-4620-bd3f-0b7e94597e2b" />
 
 ---
 
